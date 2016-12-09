@@ -1,8 +1,42 @@
 const db = require('../db');
 
+module.exports = (app) => {
+
+  //Route for login
+    app.route('/api/login')
+        .post((req, res, next) => {
+          var userName=req.body.userName;
+          var password=req.body.password;
+          if (checkuser(userName,password)) {
+            // console.log(userName);
+            // console.log(password);
+            let output = checkuser(userName,password);
+            res.status(200).json({
+              "message": "Login successfully"
+            });
+          }else{
+            res.status(401).json({
+              "message": "Login failed"
+            });
+          }
+        });
+
+    //Route for logout
+    app.route('/api/logout')
+        .post((req, res, next)=>{
+          res.status(200).json({
+              "message": "Logout successfully"
+            });
+        });
+};
+
 /*@parameter:
-  username: the username
-  database: the database
+  userName: the username from request
+  password: the password from request
+
+  @return
+  true: if authentification is successful
+  false: if not
 */
 function checkuser(userName, password){
   let result = false;
@@ -14,20 +48,3 @@ function checkuser(userName, password){
   }
   return result;
 }
-
-module.exports = (app) => {
-    app.route('/api/login')
-        .post((req, res, next) => {
-          var userName=req.body.userName;
-          var password=req.body.password;
-
-          if (checkuser(userName,password)) {
-            console.log(userName);
-            console.log(password);
-            let output = checkuser(userName,password);
-            res.status(200).send("Login successfully");
-          }else{
-            res.status(401).send("Login fail");
-          }
-        });
-};
