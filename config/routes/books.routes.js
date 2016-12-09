@@ -1,6 +1,8 @@
 module.exports = (app) => {
-    app.route('/book')
+    app.route('/api/book')
         .get((req, res, next) => {
-            res.status(200);
+            res.status(200).json({
+                success: true
+            });
         });
 };
