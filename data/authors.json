@@ -1,0 +1,11 @@
+[
+	{ "id":1,"name":"Ivan Idris" "nationalitiy":"uk" },
+	{ "id":2,"name":"Brett Lantz" "nationalitiy":"uk" },
+	{ "id":3,"name":"Dr Joshua" "nationalitiy":"usa" },
+	{ "id":4,"name":"Sir Arthur Conan Doyle" "nationalitiy":"uk" },
+	{ "id":5,"name":"Mario Casciaro" "nationalitiy":"usa" },
+	{ "id":6,"name":"Jonathan Linowes" "nationalitiy":"uk" },
+	{ "id":7,"name":"H.G. Wells" "nationalitiy":"uk" },
+	{ "id":8,"name":"Jack London" "nationalitiy":"usa" },
+	{ "id":9,"name":"Charles Dickens" "nationalitiy":"uk" },
+]

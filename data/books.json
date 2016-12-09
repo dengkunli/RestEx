@@ -1,0 +1,12 @@
+[
+	{ "ISBN":"978-0-0000-0000-1" , "name":"Python Data Analysis Cookbook", "author":1,"authorName":"Ivan Idris" },
+	{ "ISBN":"978-0-0000-0000-2" , "name":"Machine Learning with R", "author":2,"authorName":"Brett Lantz" },
+	{ "ISBN":"978-0-0000-0000-3" , "name":"R Deep Learning Essentials", "author":3,"authorName":"Dr Joshua" },
+	{ "ISBN":"978-0-0000-0000-4" , "name":"The Adventures of Sherlock Holmes", "author":4,"authorName":"Sir Arthur Conan Doyle" },
+	{ "ISBN":"978-0-0000-0000-5" , "name":"Node.js Design Patterns", "author":5,"authorName":"Mario Casciaro" },
+	{ "ISBN":"978-0-0000-0000-6" , "name":"Unity Virtual Reality Projects", "author":6,"authorName":"Jonathan Linowes" },
+	{ "ISBN":"978-0-0000-0000-7" , "name":"The Time Machine", "author":7,"authorName":"H.G. Wells" },
+	{ "ISBN":"978-0-0000-0000-8" , "name":"The Call of the Wild ", "author":8,"authorName":"Jack London" },
+	{ "ISBN":"978-0-0000-0000-9" , "name":"Great Expectations", "author":9,"authorName":"Charles Dickens" },
+	{ "ISBN":"978-0-0000-0001-0" , "name":"The Invisible Man", "author":10,"authorName":"H.G. Wells" },
+]
