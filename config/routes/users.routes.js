@@ -87,6 +87,7 @@ module.exports = (app) => {
             console.log(db.users);
         });
 
+
     app.route('/api/users/:id')
         .patch((req, res, next) => {
             //console.log(req.params.id);
@@ -97,10 +98,11 @@ module.exports = (app) => {
 
                     console.log(req.body);
 
-                   // "userName":"user2", "age":25, "type":"user", "emial":"user2@awesome.com", "password":"123456"
-                    //for(){
-
-                    //}
+                    for (let attr in db.users[0]){
+                        if(req.body.hasOwnProperty(attr)){
+                            db.users[i][attr]  = req.body[attr];
+                        }
+                    }
                     break
                 }
             }
