@@ -3,5 +3,5 @@ module.exports = (app) => {
     require('./routes/authors.routes')(app);
     require('./routes/users.routes')(app);
     require('./routes/search.routes')(app);
+    require('./routes/auth.routes')(app);
 };
-
