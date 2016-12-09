@@ -1,0 +1,23 @@
+{
+  "name": "resttp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dengkunli/RestEx.git"
+  },
+  "author": "Kunli Deng <kunli.deng.24@gmail.com> (http://dengkunli.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dengkunli/RestEx/issues"
+  },
+  "homepage": "https://github.com/dengkunli/RestEx#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
