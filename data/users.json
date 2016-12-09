@@ -3,5 +3,5 @@
 	{ "userId":2,"userName":"user1", "age":25, "type":"user", "emial":"user1@awesome.com", "password":"123456" },
 	{ "userId":3,"userName":"user2", "age":25, "type":"user", "emial":"user2@awesome.com", "password":"123456" },
 	{ "userId":4,"userName":"user3", "age":25, "type":"user", "emial":"user3@awesome.com", "password":"123456" },
-	{ "userId":5,"userName":"user4", "age":25, "type":"user", "emial":"user4@awesome.com", "password":"123456" },
+	{ "userId":5,"userName":"user4", "age":25, "type":"user", "emial":"user4@awesome.com", "password":"123456" }
 ]

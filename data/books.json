@@ -8,5 +8,5 @@
 	{ "ISBN":"978-0-0000-0000-7" , "name":"The Time Machine", "author":7,"authorName":"H.G. Wells" },
 	{ "ISBN":"978-0-0000-0000-8" , "name":"The Call of the Wild ", "author":8,"authorName":"Jack London" },
 	{ "ISBN":"978-0-0000-0000-9" , "name":"Great Expectations", "author":9,"authorName":"Charles Dickens" },
-	{ "ISBN":"978-0-0000-0001-0" , "name":"The Invisible Man", "author":10,"authorName":"H.G. Wells" },
+	{ "ISBN":"978-0-0000-0001-0" , "name":"The Invisible Man", "author":10,"authorName":"H.G. Wells" }
 ]

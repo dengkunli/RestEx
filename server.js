@@ -1,8 +1,8 @@
 // SET running environment
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
+const db = require('./config/db');
 const express = require('express');
-
 const app = express();
 const middlewares = require('./config/middlewares.js'); // config of middlewares of express
 const routes = require('./config/routes.js');
